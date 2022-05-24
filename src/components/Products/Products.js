@@ -26,25 +26,25 @@ const Products = () => {
         swipeable={true}
       >
         <div className='product__container'>
-          <img src={img1} />
+          <img src={img1} alt='printing' />
         </div>
         <div className='product__container'>
-          <img src={img2} />
+          <img src={img2} alt='printing' />
         </div>
         <div className='product__container'>
-          <img src={img3} />
+          <img src={img3} alt='printing' />
         </div>
         <div className='product__container'>
-          <img src={img4} />
+          <img src={img4} alt='printing' />
         </div>
         <div className='product__container'>
-          <img src={img5} />
+          <img src={img5} alt='printing' />
         </div>
         <div className='product__container'>
-          <img src={img6} />
+          <img src={img6} alt='printing' />
         </div>
         <div className='product__container'>
-          <img src={img7} />
+          <img src={img7} alt='printing' />
         </div>
       </Carousel>
     </div>
