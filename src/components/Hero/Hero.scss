@@ -1,0 +1,64 @@
+@import '../../sass/main.scss';
+
+.hero__container {
+  height: 100vh;
+
+  &__img {
+    flex: 1;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(51, 51, 51, 0.4),
+        rgba(51, 51, 51, 0.4)
+      ),
+      url(../../../public/assets/hero-4.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__desc {
+    position: absolute;
+    z-index: 99;
+    left: 3rem;
+    top: 3rem;
+    width: 75%;
+
+    h1 {
+      font-size: 8.6rem;
+      color: white;
+      font-weight: 700;
+      letter-spacing: -4px;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: #dee2e6;
+      line-height: 1.5;
+      margin-bottom: 8rem;
+      letter-spacing: 1px;
+    }
+
+    .cta:link,
+    .cta:visited {
+      text-transform: uppercase;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 2rem;
+      padding: 1.6rem 3.2rem;
+      border-radius: 3px;
+      font-weight: 600;
+      background-color: $color-primary;
+      color: $color-tint;
+      transition: all 0.2s;
+    }
+
+    .cta:hover,
+    .cta:active {
+      background-color: $color-shade;
+      color: $color-tint;
+      transform: translateY(-1px);
+    }
+  }
+}

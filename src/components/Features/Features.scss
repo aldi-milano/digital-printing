@@ -1,0 +1,39 @@
+@import '../../sass/main.scss';
+
+.features {
+  padding: 9.6rem 3.2rem;
+
+  h2 {
+    font-size: $heading-secondary;
+    margin-bottom: 5rem;
+    font-weight: 700;
+    color: $color-tint;
+    letter-spacing: -1px;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 1rem;
+
+    .feature {
+      &__title {
+        font-size: $font-title;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
+      }
+
+      &__text {
+        font-size: $font-paragraph;
+      }
+    }
+  }
+
+  .icon {
+    color: $color-primary;
+    font-size: 4.4rem;
+    margin-bottom: 1.6rem;
+  }
+}
