@@ -1,0 +1,45 @@
+@import '../../sass/main.scss';
+
+.about {
+  padding: 9.6rem 0;
+
+  .title {
+    padding: 0 3.2rem 4.8rem 3.2rem;
+    color: $color-primary;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  &__container {
+    max-width: 130rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 9.6rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  &__desc {
+    h3 {
+      font-size: $heading-secondary;
+      margin-bottom: 2.4rem;
+      letter-spacing: -1px;
+    }
+
+    p {
+      line-height: 2;
+    }
+  }
+
+  &__img {
+    width: 35rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}

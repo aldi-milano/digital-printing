@@ -4,14 +4,16 @@ import './App.scss';
 import HowTo from './components/HowTo/HowTo';
 import Features from './components/Features/Features';
 import Products from './components/Products/Products';
+import About from './components/About/About';
 
 const App = () => {
   return (
     <div>
       <Hero />
-      {/* <HowTo /> */}
-      <Features />
+      <About />
       <Products />
+      <Features />
+      {/* <HowTo /> */}
     </div>
   );
 };

@@ -2,6 +2,8 @@
 
 .features {
   padding: 9.6rem 3.2rem;
+  max-width: 130rem;
+  margin: 0 auto;
 
   h2 {
     font-size: $heading-secondary;
@@ -16,17 +18,18 @@
     align-items: center;
     justify-content: center;
     flex: 1;
-    gap: 1rem;
+    gap: 1.6rem;
 
     .feature {
       &__title {
-        font-size: $font-title;
+        font-size: $heading-tertiary;
         font-weight: 600;
         margin-bottom: 0.8rem;
       }
 
       &__text {
         font-size: $font-paragraph;
+        line-height: 1.5;
       }
     }
   }
